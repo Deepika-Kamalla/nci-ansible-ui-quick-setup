@@ -1,7 +1,8 @@
 
 scm:
     type: git
-    repository: https://github.com/node-ci/nci-ansible-ui-sample-playbook
+    #repository: https://github.com//nci-ansible-ui-sample-playbook
+    repository: https://github.com/Deepika-Kamalla/nci-ansible-ui-sample-playbook
     rev: master
 
 #notify when build fails or build status changes (according to previous status)
