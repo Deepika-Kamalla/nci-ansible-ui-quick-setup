@@ -34,5 +34,10 @@ playbooks:
       inventories:
           - name: sample
             path: projects/some_project/inventories/sample/hosts
-
+            
+    - name: customplay
+      path: projects/some_project/playbooks/customplay/main.yaml
+      inventories:
+          - name: sample
+            path: projects/some_project/inventories/sample/hosts
    
